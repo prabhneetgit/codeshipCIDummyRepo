@@ -1,6 +1,6 @@
 demo:
   build:
-    image: codeshipCIDummyRepo
+    image: codeshipcidummyrepo
     dockerfile_path: Dockerfile
   links:
     - redis
