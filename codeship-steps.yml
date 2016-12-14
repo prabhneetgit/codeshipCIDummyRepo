@@ -12,6 +12,6 @@
     - name: dockerhub_push
       service: demo
       type: push
-      image_name: prabhneetdocker/codeshipCIDummyRepo:latest
+      image_name: codeshipCIDummyRepo
       registry: https://index.docker.io/v1/
       encrypted_dockercfg_path: dockercfg.encrypted
